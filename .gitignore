@@ -1,0 +1,6 @@
+# Exclude sensitive files
+.env
+venv/
+__pycache__/
+*.pyc
+faiss_index/  # Vector database (will be recreated on deploy)
